@@ -18,7 +18,7 @@ int main(){
 
     a<b ? cout << "a is less than b" << endl : cout << "a is greater than b" << endl;
 
-    
 
+    
     return 0;
 }

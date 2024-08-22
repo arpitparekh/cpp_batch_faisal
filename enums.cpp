@@ -34,7 +34,7 @@ int main()
     myFunc();  // 0
     b1 = 34;
     myFunc();  // 34
-    myFunc2();  
+    myFunc2();
     myFunc();  // 35
 
     cout << a1 << endl;
@@ -42,6 +42,7 @@ int main()
     // enum
     // enumerations
     cout << a << endl;
+    
 
     return 0;
 }
