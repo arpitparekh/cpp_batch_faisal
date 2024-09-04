@@ -28,7 +28,7 @@
 
 // remaining  //////////////////////////
 
-// virtual functions
+// virtual functions  // greddy boss (kamchor boss)
 // storage class
 // friend function
 // friend class
@@ -45,7 +45,6 @@
 
 // namespace
 // multi threading
-
 
 // STL
 // STL containers
