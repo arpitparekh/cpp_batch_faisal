@@ -25,18 +25,18 @@
 
 // copy constructor
 // static data members
+// virtual functions  // greddy boss (kamchor boss)
+// friend function
+// operator overloading
 
 // remaining  //////////////////////////
 
-// virtual functions  // greddy boss (kamchor boss)
+
 // storage class
-// friend function
-// friend class
 
 // static class
 // static block
 
-// operator overloading
 // abstract class
 // interface
 // exception handling

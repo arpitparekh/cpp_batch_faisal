@@ -25,6 +25,10 @@ class Student{
       return res;
     }
 
+    void a(int a){
+
+    }
+
     // void operator<(Student &obj){ // operator overloading by gincing him different name
 
     //   Student res("",0);
