@@ -45,13 +45,9 @@
 // file hanlding
 // template  // generics
 
-// namespace
+// namespace  // preprocssesor
 // multi threading
 
-// STL
+// STL  // vector
 // STL containers
 // STL iterators
-
-
-
-

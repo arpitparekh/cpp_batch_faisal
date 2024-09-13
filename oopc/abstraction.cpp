@@ -6,21 +6,19 @@
 
 // you can not create an object of an abstract
 
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 using namespace std;
 
-
-class Vehicle{  // abstract class  // kam chor boss
+class Vehicle { // abstract class  // kam chor boss
 
   // A class is abstract if it has at least one pure virtual function.
 
-  public:
-
+public:
   string model;
   string company;
 
-  Vehicle(string model,string company){
+  Vehicle(string model, string company) {
     this->model = model;
     this->company = company;
   }
@@ -28,36 +26,29 @@ class Vehicle{  // abstract class  // kam chor boss
   virtual void display() = 0;
   virtual void startEngine(int a) = 0;
   virtual void stopEngine() = 0;
-
 };
 
-class Car : public Vehicle{
+class Car : public Vehicle {
 
   int numDoors;
 
-  public:
-
-  Car(int numDoors,string model,string company) : Vehicle(model,company){
+public:
+  Car(int numDoors, string model, string company) : Vehicle(model, company) {
     this->numDoors = numDoors;
   }
 
-  void display(){
-    cout<<"Model : "<<model<<endl;
-    cout<<"Company : "<<company<<endl;
-    cout<<"Number of Doors : "<<numDoors<<endl;
+  void display() {
+    cout << "Model : " << model << endl;
+    cout << "Company : " << company << endl;
+    cout << "Number of Doors : " << numDoors << endl;
   }
-  void startEngine(int a){
-    cout<<"Starting Engine"<<endl;
-  }
-  void stopEngine(){
-    cout<<"Stopping Engine"<<endl;
-  }
-
+  void startEngine(int a) { cout << "Starting Engine" << endl; }
+  void stopEngine() { cout << "Stopping Engine" << endl; }
 };
 
-int main(){
+int main() {
 
-  Car c1(4,"A4","Audi");
+  Car c1(4, "A4", "Audi");
   c1.display();
   c1.startEngine(12);
   c1.stopEngine();
